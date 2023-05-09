@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤍커플 디데이 계산기❤️</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="title">
+        <p>LOVELY-DAY</p>
+    </div>
+    <div class="info" id="input">
+        <form>
+            <label for="girlfriend-name">나의 이름:</label>
+            <input type="text" name="myName" size="3" id="MyName" style="text-align: center">
+            <br><br>
+
+
+            <label for="boyfriend-name">연인 이름:</label>
+            <input type="text" name="yourName" size="3" id="YourName" style="text-align: center">
+            <br><br>
+
+
+            <label for="start-date">만난 날짜:</label>
+            <input type="date" id="start-date">
+            <br><br>
+
+
+            <label for="girlfriend-birthday">나의 생일:</label>
+            <input type="date" id="MyBday">
+            <br><br>
+
+
+            <label for="boyfriend-birthday">연인 생일:</label>
+            <input type="date" id="YourBday">
+            <br><br>
+
+
+            <buttton class="btn" id="mybtn" type="button" button onclick="calculate()">START</buttton>
+            <button id="rebtn">RESET</button>
+        </form>
+    </div>
+
+    <div id="result"></div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
