@@ -1,0 +1,118 @@
+body {
+    background-color: #FFCDFF;
+}
+
+@font-face {
+    font-family: 'Cafe24ClassicType-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title {
+    font-size: 60px;
+    color: #FF85CA;
+    text-align: center;
+    animation: fadein 2.5s;
+    font-weight: bold;
+    font-family: 'Cafe24ClassicType-Regular';
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#input {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+#MyName {
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+#YourName {
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+#mybtn {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    color: #f154ad;
+    font-weight: bold;
+    background-color: #FFCDFF;
+}
+
+#rebtn {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    font-size: 40px;
+    border: none;
+    color: #eb9ac8;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #FFCDFF;
+}
+
+#result {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+.g_bday1 {
+    font-size: 50px;
+    color: #FF85FF;
+    font-family: 'Cafe24ClassicType-Regular';
+}
+
+.b_bday1 {
+    font-size: 50px;
+    color: #79AAFF;
+    font-family: 'Cafe24ClassicType-Regular';
+}
+
+.anv-100 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Cafe24ClassicType-Regular';
+}
+
+.anv-200 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Cafe24ClassicType-Regular';
+}
+
+.anv-1year {
+    font-size: 50px;
+    color: white;
+    font-family: 'Cafe24ClassicType-Regular';
+}
+
+.anv-2year {
+    font-size: 50px;
+    color: white;
+    font-family: 'Cafe24ClassicType-Regular';
+}
